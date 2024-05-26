@@ -1,0 +1,30 @@
+.filter {
+    display: flex;
+    flex-direction: column;
+    min-width: 264px;
+    border: 1px solid rgb(207, 207, 228);
+    border-radius: 18px;
+    padding: 12px;
+
+    .filter__tag {
+        color: rgb(57, 65, 75);
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 100%;
+        text-align: left;
+        border: 0;
+        border-radius: 12px;
+        padding: 12px;
+        background: transparent;
+
+        &:hover {
+            background: rgb(95, 191, 119);
+            color: rgb(255, 255, 255);
+        }
+
+        &_active {
+            background: rgb(95, 191, 119);
+            color: rgb(255, 255, 255);
+        }
+    }
+}
